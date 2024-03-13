@@ -77,6 +77,7 @@ TOP SOFTWARE COMPANIES WITH REVENUE TABLE
 </body>
 </html>
 ```
+```
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
@@ -88,7 +89,7 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-
+```
 ## OUTPUT:
 ![WhatsApp Image 2024-03-13 at 08 17 47_54e8dede](https://github.com/ARAVIND23005370/simplewebserver/assets/148514836/a2d59052-0a9f-4270-8b06-fc29e4e439c0)
 
