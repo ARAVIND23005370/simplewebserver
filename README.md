@@ -22,7 +22,7 @@ Testing the webserver.
 
 ## PROGRAM:
 from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
+```
 <html>
 <head>
 <title align="centre">TOP SOFTWARE COMPANIES WITH REVENUE TABLE </title>
@@ -76,7 +76,7 @@ TOP SOFTWARE COMPANIES WITH REVENUE TABLE
 </html>
 </body>
 </html>
-"""
+```
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
